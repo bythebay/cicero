@@ -4,6 +4,10 @@ go:
     - "1.5.1"
 
 branches:
+    except:
+        - master
+        
+branches:
     only:
         - source
 
@@ -12,7 +16,7 @@ env:
         - SSH_KEY="travis"
         - GIT_NAME="Alexy Khrabrov"
         - GIT_EMAIL="deliverable@gmail.com"
-        - SOURCE_DIR="."
+        - SOURCE_DIR="public"
         - DEPLOY_BRANCH="source"
 
 before_install:

@@ -8,8 +8,8 @@ env:
         - SSH_KEY="travis"
         - GIT_NAME="Alexy Khrabrov"
         - GIT_EMAIL="deliverable@gmail.com"
-        - SOURCE_DIR="docs"
-        - DEPLOY_BRANCH="master"
+        - SOURCE_DIR="."
+        - DEPLOY_BRANCH="source"
 
 before_install:
     - openssl aes-256-cbc -K $encrypted_f48ba7ae5fd3_key -iv $encrypted_f48ba7ae5fd3_iv -in travis.enc -out travis -d

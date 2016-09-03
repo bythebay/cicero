@@ -1,0 +1,21 @@
+language: go
+go:
+- 1.5.1
+env:
+  global:
+  - SSH_KEY="travis"
+  - GIT_NAME="Alexy Khrabrov"
+  - GIT_EMAIL="deliverable@gmail.com"
+  - SOURCE_DIR="."
+  - DEPLOY_BRANCH="master"
+before_install:
+- openssl aes-256-cbc -K $encrypted_f48ba7ae5fd3_key -iv $encrypted_f48ba7ae5fd3_iv
+  -in travis.enc -out ~\/.ssh/travis -d
+before_script:
+- go get -u -v github.com/spf13/hugo
+script:
+- git clone https://github.com/rcoedo/hugo-steam-theme ./themes/hugo-steam-theme
+- hugo
+after_success:
+- echo "cicero.institute" > ./public/CNAME
+- ./scripts/deploy.sh

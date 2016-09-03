@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cicero Institute</title>
+    <link>http://cicero.institute/</link>
+    <description>Recent content on Cicero Institute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>alexy@scalable.pro (Alexy Khrabrov)</managingEditor>
+    <webMaster>alexy@scalable.pro (Alexy Khrabrov)</webMaster>
+    <copyright>Copyright © 2016 Alexy Khrabrov</copyright>
+    <atom:link href="http://cicero.institute/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

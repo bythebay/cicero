@@ -1,6 +1,6 @@
 +++
 date = "2016-08-30T21:49:26-07:00"
-draft = true
+draft = false
 title = "cicero institute"
 
 +++

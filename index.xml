@@ -9,7 +9,18 @@
     <managingEditor>alexy@scalable.pro (Alexy Khrabrov)</managingEditor>
     <webMaster>alexy@scalable.pro (Alexy Khrabrov)</webMaster>
     <copyright>Copyright © 2016 Alexy Khrabrov</copyright>
+    <lastBuildDate>Tue, 30 Aug 2016 21:49:26 -0700</lastBuildDate>
     <atom:link href="http://cicero.institute/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>cicero institute</title>
+      <link>http://cicero.institute/2016/08/30/cicero-institute/</link>
+      <pubDate>Tue, 30 Aug 2016 21:49:26 -0700</pubDate>
+      <author>alexy@scalable.pro (Alexy Khrabrov)</author>
+      <guid>http://cicero.institute/2016/08/30/cicero-institute/</guid>
+      <description>&lt;p&gt;Cicero Institute for Human Control over Artificial Intelligence is a Silicon Valley think tank dedicated to the technical challenges in building, understanding, and certifying AI.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

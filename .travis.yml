@@ -3,6 +3,10 @@ language: go
 go:
     - "1.5.1"
 
+branches:
+    only:
+        - source
+
 env:
     global:
         - SSH_KEY="travis"

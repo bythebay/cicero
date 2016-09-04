@@ -61,13 +61,13 @@ disqusShortname = "your_disqus_shortname"
     googleAnalytics = "Your Google Analytics tracking code"
 
     # Sidebar social links.
-    github = "enten/hugo-boilerplate" # Your Github profile ID
+    github = "alexy" # Your Github profile ID
     bitbucket = "" # Your Bitbucket profile ID
-    linkedin = "" # Your LinkedIn profile ID (from public URL)
+    linkedin = "chiefscientist" # Your LinkedIn profile ID (from public URL)
     googleplus = "" # Your Google+ profile ID
     facebook = "" # Your Facebook profile ID
-    twitter = "" # Your Twitter profile ID
-    youtube = ""  # Your Youtube channel ID
+    twitter = "chiefscientist" # Your Twitter profile ID
+    youtube = "functionaltv"  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
 
 [blackfriday]

@@ -19,7 +19,9 @@ metaDataFormat = "toml"
 
 # Theme to use (located in /themes/THEMENAME/)
 # theme = "hugo-steam-theme"
-theme = "hugo-bootstrap"
+# theme = "hugo-bootstrap"
+# theme = "heather-hugo"
+theme = "hugo_theme_robust"
 
 # Pagination
 paginate = 10

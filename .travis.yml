@@ -27,7 +27,8 @@ install:
 
 script:
 #    - git clone https://github.com/rcoedo/hugo-steam-theme ./themes/hugo-steam-theme
-    - git clone https://github.com/mmrath/hugo-bootstrap ./themes/hugo-bootstrap
+#    - git clone https://github.com/mmrath/hugo-bootstrap ./themes/hugo-bootstrap
+    - git clone https://github.com/dim0627/hugo_theme_robust.git ./themes/hugo_theme_robust
     - hugo
 
 after_success:
